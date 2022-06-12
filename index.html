@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <title>Debit Card Clone</title>
+</head>
+
+<body>
+    <header id="header">Debit Card Clone</header>
+    <main>
+        <div class="cont">
+            <div id="box">
+                <div id="block1">
+                    <header id="para4">ICICI BANK</header>
+                </div>
+                <div id="block2">
+                    <div class="chips">
+                        <img src="./image/Chip.png" alt="CHIP" id="chip">
+                        <i id="wifi" class="fas fa-wifi"></i>
+                    </div>
+                    <i id="visa" class="fab fa-cc-visa"></i>
+                </div>
+                <div class="number">
+                    <span>1905</span>
+                    <span>3783</span>
+                    <span>1081</span>
+                    <span id="para3">1287</span>
+                </div>
+
+                <footer>
+                    <div id="box1">
+                        <p id="p1">Created By</p>
+                        <p id="para1">Mr.Codr</p>
+                    </div>
+                    <div id="box2">
+                        <p id="p1">Valid Till</p>
+                        <p id="para2">30/12/2025</p>
+                    </div>
+                </footer>
+            </div>
+        </div>
+
+
+
+        <div class="contt">
+            <!-- <div id="box"> -->
+            <div id="block1">
+                <header id="logo">For Costumer services, call +91 1800 2400 2958</header>
+            </div>
+            <div id="block2">
+                <div class="chips">
+                    <img src="./image/Chip.png" alt="CHIP" id="chip">
+                    <i id="wifi" class="fas fa-wifi"></i>
+                </div>
+                <i id="visa" class="fab fa-cc-visa"></i>
+            </div>
+            <div class="number">
+                <div class="white">
+                    <span>1905</span>
+                    <span>3783</span>
+                    <span>1081</span>
+                </div>
+                <span>1287</span>
+            </div>
+
+            <footer>
+                <div id="box1">
+                    <p id="p1">This card is made only for un purpose so don't take it seriously. This card is only available for kids.</p>
+                    <p id="p1">This card is created for Mr. Codr. He only have the access on this card.</p>
+                </div>
+
+            </footer>
+            <!-- </div> -->
+        </div>
+    </main>
+
+    <nav>
+        <h2>Add Content</h2><br><br>
+        <div class="one">
+
+
+        </div>
+        <div id="number1">
+            <label for="n2">Created By</label><br>
+            <input id="n2" type="text">
+            <br><br>
+            <div>
+                <button type="Button" onclick="p1()">Paste</button>
+            </div><br>
+        </div>
+        <div class="two">
+            <br>
+            <div id="number2">
+                <label for="n3">Valid Till</label><br>
+                <input id="n3" type="text" rows="5" cols="30"></input>
+            </div><br>
+            <div>
+                <button type="Button" onclick="p2()">Paste</button>
+            </div><br>
+        </div>
+
+        <div class="three">
+            <br>
+            <div id="number3">
+                <label for="n4">Bank Name</label><br>
+                <input type="text" id="n4">
+            </div><br>
+            <div>
+                <button type="Button" onclick="p3()">Paste</button>
+            </div><br>
+        </div>
+
+        <div class="four">
+            <br>
+            <div id="number4">
+                <label for="n5">Card Number (Last four digit)</label><br>
+                <input type="text" id="n5">
+            </div><br>
+            <div>
+                <button type="Button" onclick="p4()">Paste</button>
+            </div><br>
+        </div>
+
+    </nav>
+    <footer id="footer">
+        <p><i class="fa-solid fa-copyright"></i>Mr. Codr - Aakash Kavediya- 2022-2023 </p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>

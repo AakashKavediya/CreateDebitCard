@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    font-size: 30px;
+    background-color: #000;
+    width: 100%;
+    display: flex;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    height: 97vh;
+    background-color: rgb(0, 183, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont {
+    height: 200px;
+    width: 350px;
+    background-color: #000;
+    border-radius: 15px;
+}
+
+#para4 {
+    font-size: 20px;
+    color: white;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#block2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    align-items: center;
+}
+
+#chip {
+    height: 45px;
+}
+
+#visa {
+    font-size: 36px;
+    color: white;
+}
+
+.chips {
+    display: flex;
+    align-items: center;
+}
+
+#wifi {
+    color: white;
+    font-size: 20px;
+    transform: rotate(90deg);
+}
+
+.cont span {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.number {
+    padding-top: 16px;
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#box1 {
+    width: max-content;
+    text-align: center;
+}
+
+#box2 {
+    width: max-content;
+    text-align: center;
+}
+
+#p1 {
+    padding-bottom: 4px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#p2 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+#para1 {
+    padding-bottom: 4px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#para2 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+#box {
+    background: url(./image/Map.png) no-repeat center;
+    background-size: cover;
+    /* height: 100%; */
+    /* width: 100%; */
+}
+
+.contt {
+    height: 200px;
+    width: 350px;
+    background-color: #000;
+    border-radius: 15px;
+    margin-left: 20px;
+    display: none;
+}
+
+.contt #para3 {
+    font-size: 12px;
+    margin-bottom: 7px;
+    color: white;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contt #block2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    align-items: center;
+    background-color: #fff;
+}
+
+.contt #chip {
+    height: 25px;
+    visibility: hidden;
+}
+
+.contt #visa {
+    font-size: 20px;
+    color: white;
+}
+
+.contt .chips {
+    display: flex;
+    align-items: center;
+}
+
+.contt #wifi {
+    color: white;
+    font-size: 20px;
+    transform: rotate(90deg);
+}
+
+.contt span {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.contt .number {
+    padding-top: 16px;
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contt footer {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contt #box1 {
+    width: max-content;
+    text-align: center;
+}
+
+.contt #box2 {
+    width: max-content;
+    text-align: center;
+}
+
+.contt #p1 {
+    padding-bottom: 4px;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+.white {
+    background-color: #fff;
+    padding-right: 120px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+.cont:hover~.contt {
+    display: block;
+}
+
+
+/* ================NAV================================== */
+
+nav {
+    width: 90%;
+    background-color: #fff;
+    /* float: right; */
+    margin: 20px;
+    border-radius: 12px;
+    /* height: 92vh; */
+    /* overflow-x: scroll; */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid whitesmoke;
+}
+
+nav h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    background-color: whitesmoke;
+    padding: 18px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+nav #number1 {
+    border: 2px solid #ededed;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 8px
+}
+
+nav textarea {
+    width: 90%;
+}
+
+nav .two {
+    border: 2px solid #ededed;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 8px
+}
+
+nav .three {
+    border: 2px solid #ededed;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 8px
+}
+
+nav .four {
+    border: 2px solid #ededed;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 8px
+}
+
+nav .five {
+    border: 2px solid #ededed;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 8px
+}
+
+nav .six {
+    border: 2px solid #ededed;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 8px
+}
+
+nav .one label {
+    text-align: right;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav #number1 label {
+    text-align: right;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav .two label {
+    text-align: right;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav .three label {
+    text-align: right;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav .four label {
+    text-align: right;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav .five label {
+    text-align: right;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav .six label {
+    text-align: right;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav input {
+    margin-top: 5px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+nav textarea {
+    margin-top: 5px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+nav button {
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #ededed;
+    outline: none;
+    border: .8px solid gray;
+    border-radius: 7px;
+}
+
+
+/* =========Footer--------------------------------------------------- */
+
+#footer {
+    color: white;
+    background-color: #000;
+    padding: 10px;
+    font-weight: 900;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
